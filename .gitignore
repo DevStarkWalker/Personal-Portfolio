@@ -1,0 +1,66 @@
+# Node.js
+node_modules/
+
+# Build files
+build/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# .env*.local are ignored in case of deployment modes:
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache
+.cache/
+.cache-loader/
+*.css.map
+*.svg
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains
+.idea/
+
+# ESLint
+.eslintcache
+
+# Mac
+.DS_Store
+
+# React
+*.log
