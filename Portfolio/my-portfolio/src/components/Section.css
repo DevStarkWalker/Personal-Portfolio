@@ -1,0 +1,21 @@
+/* src/components/Section.css */
+.section {
+    background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+    /* Add any additional styles */
+    transition: transform 0.5s;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
