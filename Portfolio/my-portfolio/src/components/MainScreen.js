@@ -1,6 +1,7 @@
-// src/components/MainScreen.js
+// MainScreen.js
 import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
+import MatrixBackground from './MatrixBackground'; // Import MatrixBackground
 import './MainScreen.css';
 import Section from './Section';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -20,6 +21,7 @@ const MainScreen = () => {
 
   return (
     <div>
+      <MatrixBackground /> {/* Add MatrixBackground component here */}
       <div className="main-screen">
         <div className="content">
           <h1>Devon Walker</h1>

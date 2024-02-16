@@ -23,8 +23,10 @@
     margin: 0 auto;
     padding: 20px;
     position: relative;
-    z-index: 1; /* Ensure content is above the background */
-  }
+    z-index: 1;
+    font-family: 'Roboto', sans-serif; /* Choose an appropriate font */
+    color: #ece1c1; /* Light cream color for text */
+}
 
   .icons {
     margin-bottom: 20px; /* Add margin to the bottom of the icons */
@@ -50,15 +52,19 @@
   }
   
   button {
-    background-image: linear-gradient(to right, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
-    color: #ffffff; /* Green button text color */
+    background-image: linear-gradient(to right, #ffc8a9 0%, #a981bb 49%, #3b41c5 100%);
+    color: #ffffff; /* White button text color */
     border: none;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-
+    background-size: 200% 100%;
+    transition: background-position 0.3s ease, box-shadow 0.3s ease;
   }
   
-
+  button:hover {
+    background-position: 100% 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow on hover */
+    /* ... other styles ... */
+  }
