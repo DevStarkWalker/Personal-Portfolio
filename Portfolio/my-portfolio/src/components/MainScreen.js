@@ -25,7 +25,7 @@ const MainScreen = () => {
       <div className="main-screen">
         <div className="content">
           <h1>Devon Walker</h1>
-          <p>Software Engineer | Software Developer</p>
+          <p>Software Engineer | Unity Developer</p>
           <div className="icons">
             <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer">
               <LinkedInIcon style={{ fontSize: 40, marginRight: 10 }} />
@@ -34,7 +34,9 @@ const MainScreen = () => {
               <GitHubIcon style={{ fontSize: 40 }} />
             </a>
           </div>
-          <button>Contact Me</button>
+          <button>Portfolio</button>
+          <button>Career</button>
+          <button>About Me</button>
         </div>
       </div>
       <Section />

@@ -54,6 +54,7 @@
   button {
     background-image: linear-gradient(to right, #ffc8a9 0%, #a981bb 49%, #3b41c5 100%);
     color: #ffffff; /* White button text color */
+    margin: 10 auto;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
