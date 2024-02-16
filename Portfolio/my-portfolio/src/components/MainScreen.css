@@ -1,0 +1,71 @@
+/* src/components/MainScreen.css */
+.main-screen {
+    background-image: linear-gradient(to bottom, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+
+    /* Add any additional styles */
+    transition: transform 0.5s;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  
+  
+
+  .main-screen.reveal {
+    transform: scale(1);
+  }
+
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif; /* Choose an appropriate font */
+    color: #ece1c1; /* Light cream color for text */
+}
+
+  .icons {
+    margin-bottom: 20px; /* Add margin to the bottom of the icons */
+  }
+  
+  .icons a {
+    margin-right: 10px; /* Add margin between the icons */
+  }
+  
+  .icons a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-image: linear-gradient(to right, #ffc8a9 0%, #a981bb 49%, #3b41c5 100%);
+    color: #ffffff; /* White button text color */
+    margin: 10 auto;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    background-size: 200% 100%;
+    transition: background-position 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button:hover {
+    background-position: 100% 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow on hover */
+    /* ... other styles ... */
+  }
